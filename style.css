@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 32px;
+    padding: 10px;
+}
+
+.btn{
+    background: #000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+/* Banner Part CSS */
+.banner{
+    height: 600px;
+    background-image: url('./assets/Hero-bg.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+    width: 40%;
+    text-align: center;
+}
+
+.banner h1, p{
+    text-align: center;
+}
+
+.banner p{
+    color: gray;
+}
+
+.developer-img{
+    text-align: center;
+}
