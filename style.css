@@ -36,10 +36,22 @@
     text-align: center;
 }
 
-.banner p{
+p{
     color: gray;
 }
 
 .developer-img{
     text-align: center;
+}
+
+/* Why Web Development Part CSS */
+.why-web-development-section{
+    margin: 0 200px;
+}
+.why-web-heading h1, p{
+    text-align: center;
+    margin: 8px;
+}
+.why-web-heading{
+ margin: 20px 0;
 }
