@@ -87,7 +87,7 @@ h1{
 /* Why Web Development Part CSS */
 .why-web-development-section{
     background-color: rgb(250, 250, 251);
-    margin: 100px 150px;
+    margin: 100px 100px;
     padding: 50px;
     border-radius: 10px;
 }
@@ -132,7 +132,11 @@ h1{
 /* My Current Target */
 .current-target-section{
     margin: 100px auto;
+}
 
+.current-target-section img{
+ width: 80px;
+ height: 80px;
 }
 .current-target-heading{
     width: 50%;
@@ -144,6 +148,7 @@ h1{
 .current-target-card{
     margin: 50px 100px;
     display: flex;
+    justify-content: center;
 }
 
 .current-card{
@@ -151,6 +156,9 @@ h1{
     padding: 25px;
     border-radius: 5px;
     margin: 5px 15px;
+}
+.current-target-card p{
+    height: 75px;
 }
 
 .current-card h4{
@@ -172,7 +180,7 @@ h1{
 
 /* Next Target */
 .my-next-target-section{
-    margin: 0 120px;
+    margin: 0 100px;
 }
 .next-target-card{
     display: flex;
@@ -193,7 +201,7 @@ h1{
 
 /* Support Section CSS */
 .support-section{
-    margin: 70px 100px;
+    margin: 70px 110px;
 }
 
 .support-bg{
