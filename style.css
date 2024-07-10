@@ -38,7 +38,21 @@ html {
     padding: 10px 20px;
     cursor: pointer;  
 }
-
+.download-resume-btn{
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: rgb(61, 66, 77);
+    font-weight: 600;
+    cursor: pointer;
+}
+/* Heading Part */
+nav{
+    margin: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+}
 /* Banner Part CSS */
 .banner{
     height: 600px;
@@ -149,6 +163,26 @@ p{
 }
 #current-card-js{
     background-color: rgb(255, 253, 242);
+}
+
+/* Next Target */
+.my-next-target-section{
+    margin: 0 120px;
+}
+.next-target-card{
+    display: flex;
+    align-items: center;
+    padding: 25px 20px;
+    border: 1px solid rgb(241, 238, 238);
+    border-radius: 10px;
+    margin: 15px;
+}
+.next-target-card img{
+    margin: 0 15px;
+}
+
+.next-target-card a{
+    color: black;
 }
 
 /* Support Section CSS */
