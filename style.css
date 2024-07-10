@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .heading{
     font-weight: bold;
     font-size: 32px;
@@ -149,7 +153,7 @@ p{
 
 /* Support Section CSS */
 .support-section{
-    margin: 20px 100px;
+    margin: 70px 100px;
 }
 
 .support-bg{
@@ -193,5 +197,23 @@ p{
     font-size: 20px;
     font-weight: bold;
     margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Footer Section */
+footer{
+    background-color: rgb(248, 248, 248);
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-icon{
+    display: flex;
+}
+.contact-icon img{
+    margin: 10px;
+}
+.contact-icon img:hover{
     cursor: pointer;
 }
